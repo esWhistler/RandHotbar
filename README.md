@@ -14,4 +14,6 @@ Minecraft Forge mod that selects items in your hotbar at random
 
 **from** and **to** agruments recieve hotbar slots, limiting what can be selected, if they are not provided they default to the whole hotbar
 
+## deactivate
+
 > /randHotbar deactivate
