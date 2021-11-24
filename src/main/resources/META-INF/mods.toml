@@ -23,11 +23,11 @@ version="${file.jarVersion}" #mandatory
  # A display name for the mod
 displayName="Hotbar Randomizer" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
-updateJSONURL="https://github.com/esWhistler/RandHotbar/blob/main/updates.json" #optional
+#updateJSONURL="https://github.com/esWhistler/RandHotbar/blob/main/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://github.com/esWhistler/RandHotbar" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+#logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
@@ -37,21 +37,17 @@ description='''
 selects items in your hotbar at random
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+#[[dependencies.randhotbar]] #optional
     # the modid of the dependency
-    modId="forge" #mandatory
+#    modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
+#    mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[37,)" #mandatory
+#    versionRange="[37,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
-    ordering="NONE"
+#    ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
-    side="BOTH"
-# Here's another dependency
-[[dependencies.examplemod]]
-    modId="minecraft"
-    mandatory=true
+#    side="BOTH"
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.17.1,1.18)"
     ordering="NONE"
