@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/esWhistler/RandHotbar)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/esWhistler/RandHotbar)
 
-Minecraft Forge mod that selects items in your hotbar at random
+Minecraft Mod that adds a command that changes the selected hotbar slot at random after placing a block.
 
 # Usage
 
@@ -12,7 +12,7 @@ Minecraft Forge mod that selects items in your hotbar at random
 
 > /randHotbar activate [from] [to]
 
-**from** and **to** agruments recieve hotbar slots, limiting what can be selected, if they are not provided they default to the whole hotbar
+**from** and **to** arguments receive hotbar slots, limiting what can be selected, if they are not provided they default to the whole hotbar
 
 ## deactivate
 
