@@ -1,8 +1,8 @@
 # RandHotbar
 
-![GitHub all releases](https://img.shields.io/github/downloads/esWhistler/RandHotbar/total)
-![GitHub](https://img.shields.io/github/license/esWhistler/RandHotbar)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/esWhistler/RandHotbar)
+[![GitHub all releases](https://img.shields.io/github/downloads/esWhistler/RandHotbar/total)](https://www.curseforge.com/minecraft/mc-mods/hotbar-randomizer)
+[![GitHub](https://img.shields.io/github/license/esWhistler/RandHotbar)](https://github.com/esWhistler/RandHotbar/blob/main/LICENSE)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/esWhistler/RandHotbar)](https://github.com/esWhistler/RandHotbar/releases)
 
 Minecraft Mod that adds a command that changes the selected hotbar slot at random after placing a block.
 
