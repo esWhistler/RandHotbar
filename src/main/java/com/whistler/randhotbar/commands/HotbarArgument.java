@@ -18,8 +18,9 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
+@Deprecated
 public class HotbarArgument implements ArgumentType<Integer> {
-    private static final Collection<String> EXAMPLES = Arrays.asList("hotbar.2", "inventory.13", "12");
+    private static final Collection<String> EXAMPLES = Arrays.asList("hotbar.2", "hotbar.5", "hotbar.8");
     private static final DynamicCommandExceptionType ERROR_UNKNOWN_SLOT = new DynamicCommandExceptionType((p_111283_) ->
             new TranslatableComponent("slot.unknown", p_111283_));
     private static final Map<String, Integer> SLOTS = Util.make(Maps.newHashMap(), (p_111285_) -> {

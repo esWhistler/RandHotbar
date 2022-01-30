@@ -1,0 +1,16 @@
+{
+  "key.randhotbar.hotbar_randomization" : "Activate/deactivate hotbar randomization",
+  "key.randhotbar.hotbar_randomization_options" : "Open randomization menu",
+  "key.category.randhotbar" : "Hotbar Randomizer",
+  "hotbar_randomizer.title" : "Randomizer Keybinds",
+  "hotbar.screen.title" : "Hotbar Randomizer Options",
+  "variables.hotbar0" : "Hotbar 0 chance",
+  "variables.hotbar1" : "Hotbar 1 chance",
+  "variables.hotbar2" : "Hotbar 2 chance",
+  "variables.hotbar3" : "Hotbar 3 chance",
+  "variables.hotbar4" : "Hotbar 4 chance",
+  "variables.hotbar5" : "Hotbar 5 chance",
+  "variables.hotbar6" : "Hotbar 6 chance",
+  "variables.hotbar7" : "Hotbar 7 chance",
+  "variables.hotbar8" : "Hotbar 8 chance"
+}
